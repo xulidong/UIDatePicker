@@ -9,7 +9,6 @@ cc.Class({
         pfbDatePicker: cc.Prefab,
     },
 
-    // use this for initialization
     onLoad: function () {
         let date = new Date();
         this.year = date.getFullYear();
@@ -17,10 +16,6 @@ cc.Class({
         this.day = date.getDate();
 
         this.updateDate();
-    },
-
-    // called every frame
-    update: function (dt) {
     },
 
     onClickDate: function() {

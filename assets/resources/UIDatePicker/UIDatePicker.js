@@ -30,6 +30,7 @@ cc.Class({
         }
     },
 
+    // 设置显示的日志，默认为当前日期
     setDate(year, month, day) {
         this.date = new Date(year, month, day);
         this.year = this.date.getFullYear();
@@ -40,8 +41,6 @@ cc.Class({
     },
 
     updateDate () {
-        
-
         this.lbYearMonth.string = cc.js.formatStr("%s年%s月", this.year, this.month + 1);
 
         let date = new Date(this.year, this.month, 0);
@@ -92,6 +91,7 @@ cc.Class({
         this.updateDate();
     },
 
+    // 设置选中日期之后的回调
     setPickDateCallback(cb) {
         this.cb = cb;
     },
