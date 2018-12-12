@@ -2,7 +2,7 @@
 
 日期选择控件及其使用示例及其使用，效果如果：
 
-![预览图]("./picture/sample.png")
+![预览图]("https://github.com/xulidong/UIDatePicker/blob/master/picture/sample.png")
 
 1 将 UIDatePicker 文件夹拷贝到项目中
 2 在脚本中创建一个 Prefab，值设为 UIDatePicker
